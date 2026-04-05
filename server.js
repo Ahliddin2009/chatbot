@@ -17,7 +17,7 @@ app.use(cors({
 app.use(express.json());
 
 // 🔑 API KEY
-const API_KEY = process.env.zDqFt9U0Dv2boeIfj57IaR7x5jLVC7Ab;
+const API_KEY = process.env.NxykL4qicPxJqb4SCCbnKTbymFmUaKP6;
 
 // 🧠 Chat endpoint
 app.post("/chat", async (req, res) => {
