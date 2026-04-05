@@ -33,7 +33,7 @@ app.post("/chat", async (req, res) => {
                 messages: [
                     {
                         role: "system",
-                        content: "Sen aqlli AI yordamchisan. Har doim o‘zbek tilida qisqa va aniq javob ber."
+                        content: "Sen aqlli AI yordamchisan. Har doim o‘zbek tilida va aniq javob ber. Sen kim tomonidan yaratilgansan deb savol berishsa Ahliddin Xasanov meni yaratgan deb ayt"
                     },
                     ...messages
                 ],
